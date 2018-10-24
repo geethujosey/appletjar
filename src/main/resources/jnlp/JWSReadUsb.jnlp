@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="http://127.0.0.1:62316/" href="JWSReadUsb.jnlp">
+     <information>
+          <title>JNLP DirectoryChooserJavaFX</title>
+          <vendor>J&J</vendor>
+          <homepage href="http://127.0.0.1:62316/" />
+          <description>JNLP Testing</description>
+     </information>
+     <security>
+          <all-permissions/>
+     </security>
+     <resources>
+          <j2se version="1.6+" />
+          <jar href="http://127.0.0.1:62316/applet/appletjar-0.0.1-SNAPSHOT-jar-with-dependencies.jar" />
+     </resources>
+     <application-desc main-class="com.jnj.jws.JWSReadUsb" />
+</jnlp>

@@ -1,0 +1,35 @@
+# where our app is hosted on the internets
+#appbase=D:/Development_Avecto/mdcapplet/mdcapplet
+#appbase = https://localhost/
+appbase = https://samskivert.com/code/testapp
+
+# the jar file that contains our code
+code = appletjar.jar
+
+# include the latest copy of getdown; app checks at startup whether it should upgrade getdown
+code = applet-new.jar
+
+# the main entry point of our app
+class = com.jnj.jws.Main
+
+# we pass the appdir to our app so that it can upgrade getdown
+apparg = %APPDIR%
+
+# test the %env% mechanism
+jvmarg = -Dusername=\%ENV.USER%
+
+strict_comments = true
+
+ui.name = Applet app
+ui.background_image = background.png
+ui.progress = 17, 321, 458, 22
+ui.progress_bar = 336600
+ui.progress_text = FFFFFF
+ui.status = 57, 245, 373, 68
+ui.status_text = 000000
+
+# java_min_version = 1080112
+# java_exact_version_required = true
+# java_location = [windows] java_windows.jar
+# java_location = [mac os x] java_macos.jar
+# java_location = [linux] java_linux.jar
